@@ -1,0 +1,52 @@
+type VendorProduct = {
+  SKU: string;
+  'Short Description': string;
+  'Long Description': string;
+  Brand: string;
+  Classification: string;
+  VAT: number;
+  'Recommended sales price': number;
+  Currency: string;
+  Price: number;
+  Stock: number;
+  StockDate: string;
+  'Product EAN': string;
+  Verkoopeenheid: string;
+  PictureURL: string;
+  DataSheetURL: string;
+  HSCode: string;
+  Length: number;
+  Width: number;
+  Height: number;
+  Gewicht: number;
+  PerCarton: number;
+  LandHerk: string;
+  WebCategorie: string;
+  WebTechniek: string;
+  WebType: string;
+  WebCrossSell: string;
+  EindDatum: string;
+  Gewijzigd: string;
+};
+
+
+  type GPIProduct = {
+  Artikel__c: string;
+  Fabrikantscode__c: string | null;
+  Merk__c: string;
+  description__c: string;
+  Prijs__c: number | null;
+  Prijs_incl_heffingen__c: number;
+  Productnaam__c: string;
+  Voorraad__c: number | null;
+  Produktindeling__c: string | null;
+  UNSPSC_code__c: string | null;
+  EAN__c: string | null;
+  Status__c: string | null;
+  Verwijderingsbijdrage__c: string | null;
+  Thuiskopie__c: string | null;
+  Stibat__c: string | null;
+  category__c: string | null;
+  EOL__c: string | null;
+  Unique_Id__c: string | null;
+};
